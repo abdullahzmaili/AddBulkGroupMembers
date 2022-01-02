@@ -5,7 +5,11 @@ is used to import bulk members within Azure AD group.
 You can run AddBulkGroupMembers tool as a user who has the required permissions on Azure AD to update group membeships.
 
 ## How to run the script
-Download and run the `AddBulkGroupMembers.ps1` script from [this](https://github.com/abdullahzmaili/AddBulkGroupMembers.git) GitHub repo.
+#### 1- Download CSV file
+- Download and file the CSV file with users' object IDs.
+
+#### 2- Download AddBulkGroupMembers Tool
+- Download and execute AddBulkGroupMembers.ps1
 
 ## Why is this script useful?
 AddBulkGroupMembers automates adding members to any Azure AD group.
